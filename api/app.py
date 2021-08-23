@@ -14,7 +14,7 @@ def home():
 def wait():
     from random import randint
     from time import sleep
-    waittime = randint(10,15)
+    waittime = randint(10,100)
     logging.info('Going to sleep for some random seconds!')
     sleep(waittime)
     logging.info('Just woke up')
