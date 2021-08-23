@@ -15,3 +15,5 @@ do
 curl http://127.0.0.1:5000/api/wait&
 done
 ```
+
+The above test might still 504, but the queue at the gunicorn level would happen. The response timeout and the connection throttling can be experimented at the nginx level to give better user experience.
