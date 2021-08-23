@@ -1,7 +1,7 @@
 pidfile = 'app.pid'
 worker_tmp_dir = '/dev/shm'
 worker_class = 'gthread'
-workers = 2
+workers = 5
 worker_connections = 1000
 timeout = 30
 keepalive = 2
